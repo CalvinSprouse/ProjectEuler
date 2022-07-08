@@ -14,7 +14,6 @@ What is the smallest positive number that is evenly divisible by all numbers 1 t
 
 % init
 num = 20;
-nums = [1:num];
-i=0;
 
-% get primes then multiply by greatest power of each prime
+% call my painstakingly developed recursive function
+fprintf("LCM of %i is %i\n", num, least_common_multiple([1:num]))
